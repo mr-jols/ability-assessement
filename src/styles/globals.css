@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  html {
+    @apply desktop:text-[1vw]
+            laptop:text-[16px]
+            text-[14px];
+  }
+
+  .giveborder {
+    @apply border-[1px] border-[red];
+  }
+
+  .givecenter {
+    @apply flex justify-center items-center min-h-[100vh];
+  }
+
+  .givelayout {
+    @apply desktop:px-[4vw]
+    laptop:px-[4rem]
+                tab:px-[80px]
+                px-[20px] mx-[auto];
+  }
+
+  p{
+    @apply text-[#48566C]
+  }
+}
+
+
