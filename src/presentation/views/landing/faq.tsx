@@ -65,7 +65,7 @@ function Accordion({ props }: { props: FaqProps }) {
       onClick={() => handleToggle()}
     >
       <div className="flex gap-[1rem] justify-between ">
-        <h5 className="flex-[12] mb-[1.5rem] text-[#333333] font-[700] text-[1.25rem]">
+        <h5 className="flex-[12] mb-[1.5rem] text-[#333333] font-[700] text-[1rem]">
           {props.title}
         </h5>
         <div className="flex-1">
@@ -84,9 +84,9 @@ function Accordion({ props }: { props: FaqProps }) {
         }
       >
         {typeof props.content == "string" ? (
-          <p className="pb-[1rem] text-[1rem] font-[600]">{props.content}</p>
+          <p className="pb-[1rem] text-[0.9rem] font-[600]">{props.content}</p>
         ) : (
-          <div className="pb-[1rem] text-[1rem] font-[600]">
+          <div className="pb-[1rem] text-[0.9rem] font-[600]">
             {props.content}
           </div>
         )}

@@ -7,6 +7,7 @@ import category_2 from "../../public/category_2.png";
 import category_3 from "../../public/category_3.png";
 import category_4 from "../../public/category_4.png";
 import category_5 from "../../public/category_5.png";
+import logo_footer from "../../public/logo_footer.png";
 
 const Images = {
   logo,
@@ -18,6 +19,7 @@ const Images = {
   category_3,
   category_4,
   category_5,
+  logo_footer
 };
 
 export default Images;
