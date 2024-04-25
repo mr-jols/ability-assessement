@@ -73,9 +73,7 @@ function CategoryItem({ props }: { props: CategoryItemProps }) {
       <Image src={props.image} alt="" className="w-full" />
       <h4 className="font-[700] text-[1.25rem]">{props.title}</h4>
       <p>
-        This is a related but independent unit that consults for the
-        identification, assessment and management of children with speech and
-        language disorder.
+      {props.content}
       </p>
       <Link
         href={props.href}
