@@ -77,7 +77,7 @@ function CategoryItem({ props }: { props: CategoryItemProps }) {
       </p>
       <Link
         href={props.href}
-        className="bg-[#0066F5] text-[#fff] font-[700] px-[2rem] py-[0.9rem] rounded-[0.5rem] inline-block max-w-[9rem]"
+        className="bg-[#0066F5] text-[#fff] font-[700] px-[2rem] py-[0.9rem] rounded-[0.5rem] inline-block max-w-[10rem]"
       >
         Learn more
       </Link>
